@@ -1,0 +1,12 @@
+import pandas as pd; import numpy as np
+
+# Solution:
+ingredients = np.matrix([[29, 41], [23,41]]);
+revenue = np.matrix([[490], [448]]);
+
+print(ingredients); print(revenue)
+
+np.linalg.solve(ingredients, revenue)
+
+# Explain your answer in terms of prices
+# 7 bags of coffee, 7 bags of tea

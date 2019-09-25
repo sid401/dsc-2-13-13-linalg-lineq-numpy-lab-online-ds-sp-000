@@ -1,0 +1,10 @@
+# Create a system of equations
+admissions = np.matrix([[12, 3], [8, 3]])
+revenue = np.matrix([[162] , [122]])
+
+print(admissions); print(revenue)
+
+np.linalg.solve(admissions, revenue)
+
+# Describe your result
+# $10 per child, $14 per adult
